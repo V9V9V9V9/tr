@@ -41,8 +41,6 @@ else
 		local custom_chars = {
 			[" "] = "",
 			["i"] = "і",
-                        ["a"] = "а",
-                        ["ass"] = "aѕѕ",
 			["e"] = "е",
                         ["g"] = "ɡ",
 			["c"] = "с",
@@ -71,7 +69,7 @@ else
 		chatBar = chatGui:FindFirstChild("ChatBar", true)
 
 		local randomstr = function()
-			local characters = {"a", "b", "c", "d", "e", "f", "ass", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
+			local characters = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"}
 			local str = ""
 			local length = math.random(12, 32)
 
